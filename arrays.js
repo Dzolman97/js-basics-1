@@ -29,8 +29,9 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
-let someNums = numbers.slice(1, 4)
+let middleNums = numbers.slice(1, 4)
 // console.log(someNums)
+// misread "middleNums ad SomeNums"
 
 
 //////////////////PROBLEM 4////////////////////
