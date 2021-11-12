@@ -14,8 +14,9 @@ const readline = require('readline').createInterface({
 // if pasword meets all constraints, show a succes message to the user
 // if it does not meet restraints, show failure message to the user
 
-readline.question("Hello user! When you are ready please input the password you wish to validate.", function (answer) {
+readline.question("Hello user! When you are ready please input the password you wish to validate: ", function (answer) {
     if(answer.length >= 10){
         console.log("Success. Your password is looking great!")
     }else{console.log("Failure. Your Password needs more characters.")}
+    readline.close()
 });
